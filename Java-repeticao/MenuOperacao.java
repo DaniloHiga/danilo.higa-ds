@@ -7,15 +7,12 @@ public class MenuOperacao {
         System.out.println("3 - Multiplicação");
         System.out.println("4 - Divisão");
         System.out.print("Escolha uma opção: ");
-
-        int opcao = scanner.nextInt();
+        int opcao=scanner.nextInt();
 
         System.out.print("Digite o primeiro número: ");
-        double a = scanner.nextDouble();
-
+        double a=scanner.nextDouble();
         System.out.print("Digite o segundo número: ");
-        double b = scanner.nextDouble();
-
+        double b=scanner.nextDouble();
         switch (opcao) {
             case 1:
                 System.out.println("Resultado: " + (a + b));
@@ -36,7 +33,6 @@ public class MenuOperacao {
             default:
                 System.out.println("Opção invalida");
         }
-
         scanner.close();
     }
 }
