@@ -13,9 +13,8 @@ class SomaParImpar {
                 somaImpar += i;
             }
         }
-
-        System.out.println("Soma dos pares: " + somaPar);
-        System.out.println("Soma dos ímpares: " + somaImpar);
+        System.out.println("Soma dos pares: " +somaPar);
+        System.out.println("Soma dos ímpares: " +somaImpar);
 
         scanner.close();
     }
