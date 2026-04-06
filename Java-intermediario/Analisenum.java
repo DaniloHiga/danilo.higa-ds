@@ -6,7 +6,7 @@ class Analisenum {
         int n=scanner.nextInt();
         int[] num=new int[n];
         for(int i=0; i<n; i++) {
-            System.out.println("Digite o numero " + (i+1) + ": ");
+            System.out.print("Digite o numero " + (i+1) + ": ");
             num[i]=scanner.nextInt();
         }
         int soma=0;
@@ -29,5 +29,6 @@ class Analisenum {
         System.out.println("Media: " +media);
         System.out.println("Maior numero: " +maior);
         System.out.println("Menor numero: " +menor);
+        scanner.close();
     }
 }
