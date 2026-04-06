@@ -5,7 +5,7 @@ class NumContagem {
         System.out.println("Digite um numero: ");
         int num=scanner.nextInt();
         int contagem=0;
-        while (contagem!=num) {
+        while (contagem<num) {
             contagem++;
             System.out.println(contagem);
         }
