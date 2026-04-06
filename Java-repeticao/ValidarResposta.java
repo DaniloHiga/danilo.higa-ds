@@ -3,11 +3,11 @@ class ValidarResposta {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String resposta;
-        System.out.print("Digite S (sim) ou N (não): ");
+        System.out.print("Digite 1 ou 2: ");
         resposta=scanner.nextLine();
 
-        while (!resposta.equalsIgnoreCase("S") && !resposta.equalsIgnoreCase("N")) {
-            System.out.print("Resposta inválida! Digite S ou N: ");
+        while (!resposta.equalsIgnoreCase("1") && !resposta.equalsIgnoreCase("2")) {
+            System.out.print("Resposta inválida. Digite 1 ou 2: ");
             resposta=scanner.nextLine();
         }
 
