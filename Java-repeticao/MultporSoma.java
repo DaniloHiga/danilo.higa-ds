@@ -8,13 +8,12 @@ class MultporSoma {
         int b = scanner.nextInt();
 
         int resultado = 0;
-        int contador = 0;
+        int i = 0;
 
-        while (contador < b) {
-            resultado += a;
-            contador++;
+        while (i<b) {
+            resultado+=a;
+            i++;
         }
-
         System.out.println("Resultado: " + resultado);
         scanner.close();
     }
